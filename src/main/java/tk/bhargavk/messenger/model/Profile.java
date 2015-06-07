@@ -9,9 +9,12 @@ public class Profile {
 	private String profileName;
 	private String firstName;
 	private String lastName;
+	
+	public Profile(){
+		
+	}
 		
 	public Profile(long id, String profileName, String firstName, String lastName) {
-		//super();
 		this.id = id;
 		this.profileName = profileName;
 		this.firstName = firstName;
